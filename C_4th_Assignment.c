@@ -49,7 +49,7 @@ int main()
 		for(j=0; j<row; ++j)
 		{
 			printf("%d", transpose[i][j]);
-			if(j = row - 1)
+			if(j == row - 1)
 			puts("\n");
 		}
 
